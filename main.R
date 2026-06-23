@@ -4,6 +4,7 @@ WIDTH <- 1280
 HEIGHT <- 720
 
 init_window(WIDTH, HEIGHT, "R Game")
+set_target_fps(get_monitor_refresh_rate(get_current_monitor()))
 
 ballX <- WIDTH / 2
 ballY <- HEIGHT / 2
